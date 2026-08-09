@@ -1,1 +1,10 @@
 *.keystore
+
+# Build artifacts / binaries (keep the tree to clean sources only)
+work/*.apk
+work/*.idsig
+work/*.zip
+work/cmp/
+work/verifyres/
+work/**/build/
+work/module/files/*.apk
