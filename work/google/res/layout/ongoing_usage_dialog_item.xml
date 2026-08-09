@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_height="wrap_content" style="@style/PermissionUsageDialogItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="48.0dip" android:layout_height="48.0dip" style="@style/PermissionUsageDialogItemIconFrame">
+        <ImageView android:id="@id/app_icon" android:layout_width="42.0dip" android:layout_height="42.0dip" style="@style/PermissionUsageDialogItemIcon" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_marginTop="4.0dip" style="@style/PermissionUsageDialogAppAndPermissions">
+        <TextView android:id="@id/app_name" android:layout_width="wrap_content" style="@style/PermissionUsageDialogItemAppName" />
+        <TextView android:id="@id/permissionsList" android:visibility="gone" style="@style/PermissionUsageDialogItemPermissionsList" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/icons" android:visibility="gone" style="@style/PermissionUsageDialogItemIconsContainer" />
+</LinearLayout>

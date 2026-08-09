@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="0.0dip" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/button_app_info" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <TextView android:id="@id/package_name2" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <LinearLayout android:id="@id/installed_info_header" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <TextView android:id="@id/old_version" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </LinearLayout>
+    <TextView android:id="@id/new_version" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <TextView android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <FrameLayout android:id="@id/minsdk_old_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <TextView android:id="@id/minSdk_ver" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </FrameLayout>
+    <TextView android:id="@id/minsdk_update_arrow" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <TextView android:id="@id/minSdk_new" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <FrameLayout android:id="@id/targetsdk_old_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <TextView android:id="@id/targetSdk_ver" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </FrameLayout>
+    <TextView android:id="@id/targetsdk_update_arrow" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <TextView android:id="@id/targetSdk_new" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</FrameLayout>
